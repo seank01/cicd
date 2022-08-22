@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "m4.large"
-key_name      = "dev"
+key_name      = "aws-ezcmc1"
 private_ip    = "10.0.1.140"
 
 # iam

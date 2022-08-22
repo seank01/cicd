@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "bastion"
-owner = "dj.kim"
+owner = "seank"
 tags  = {}
 
 # AMI
@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "dev"
+key_name      = "aws-ezcmc1"
 
 # ssh sg
 ssh_sg_description      = "SSH Security group for Bastion EC2 instance"

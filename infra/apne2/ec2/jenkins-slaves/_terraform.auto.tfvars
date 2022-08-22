@@ -2,7 +2,7 @@ env       = "dev"
 name      = "jenkins-slave"
 slave_cnt = 2
 
-owner = "dj.kim"
+owner = "seank"
 tags  = {}
 
 # AMI
@@ -16,7 +16,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "dev"
+key_name      = "aws-ezcmc1"
 
 # IAM
 trusted_role_services = [

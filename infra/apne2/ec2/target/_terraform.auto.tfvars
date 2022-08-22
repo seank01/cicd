@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "target"
-owner = "dj.kim"
+owner = "seank"
 tags  = {}
 
 # AMI
@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "dev"
+key_name      = "aws-ezcmc1"
 
 target_count = 3
 #private_ips  = ["10.0.1.61"]
