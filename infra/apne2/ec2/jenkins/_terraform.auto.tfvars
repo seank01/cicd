@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "jenkins"
-owner = "dj.kim"
+owner = "seank"
 tags  = {}
 
 # AMI
@@ -13,7 +13,7 @@ ami_filters = [
 ]
 
 # EC2
-instance_type = "m4.large"
+instance_type = "t3.micro"
 key_name      = "aws-ezcmc1"
 private_ip    = "10.0.1.140"
 

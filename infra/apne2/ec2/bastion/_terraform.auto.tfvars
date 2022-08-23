@@ -18,7 +18,7 @@ key_name      = "aws-ezcmc1"
 
 # ssh sg
 ssh_sg_description      = "SSH Security group for Bastion EC2 instance"
-ssh_ingress_cidr_blocks = ["211.106.116.65/32"]
+ssh_ingress_cidr_blocks = ["13.209.50.21/32"]
 ssh_ingress_rules       = ["ssh-tcp"]
 ssh_egress_rules        = ["all-all"]
 
